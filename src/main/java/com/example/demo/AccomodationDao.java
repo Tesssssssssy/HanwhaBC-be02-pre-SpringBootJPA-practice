@@ -15,8 +15,8 @@ public class AccomodationDao {
 
     private JdbcTemplate jdbcTemplate;
 
-    public AccomodationDao(DataSource dataSource) {
-        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    public AccomodationDao(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
     }
 
     public void createAccomodation(PostAccomodationReq postAccomodationReq) {
