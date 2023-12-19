@@ -13,9 +13,7 @@ import java.util.List;
 @Builder
 public class MovieDto {
     Integer id;
-
     String name;
     Integer price;
-
-    List<ReviewDto> reviews = new ArrayList<>();
+    List<ReviewDto> reviews;
 }

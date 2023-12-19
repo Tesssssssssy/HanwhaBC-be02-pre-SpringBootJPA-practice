@@ -18,7 +18,7 @@ public class Review {
     Integer id;
 
     @JsonIgnore
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "Movie_id")
     private Movie movie;
 
