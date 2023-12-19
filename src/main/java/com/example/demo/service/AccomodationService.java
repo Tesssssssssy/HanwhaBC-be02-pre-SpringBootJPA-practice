@@ -11,6 +11,8 @@ import java.util.List;
 @Service
 public class AccomodationService {
 
+    // private AccomodationRepository accomodationRepository;
+
     private final AccomodationDao accomodationDao;
 
     public AccomodationService(AccomodationDao accomodationDao) {
