@@ -1,4 +1,4 @@
-package com.example.demo.movie.model;
+package com.example.demo.MoviePractice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;

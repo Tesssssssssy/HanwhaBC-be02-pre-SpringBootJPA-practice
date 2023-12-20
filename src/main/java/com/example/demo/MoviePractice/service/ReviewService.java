@@ -1,9 +1,9 @@
-package com.example.demo.movie.service;
+package com.example.demo.MoviePractice.service;
 
-import com.example.demo.movie.model.Movie;
-import com.example.demo.movie.model.Review;
-import com.example.demo.movie.model.ReviewDto;
-import com.example.demo.movie.repository.ReviewRepository;
+import com.example.demo.MoviePractice.model.Movie;
+import com.example.demo.MoviePractice.model.Review;
+import com.example.demo.MoviePractice.model.ReviewDto;
+import com.example.demo.MoviePractice.repository.ReviewRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

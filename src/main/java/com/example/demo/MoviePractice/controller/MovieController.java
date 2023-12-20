@@ -1,7 +1,7 @@
-package com.example.demo.movie.controller;
+package com.example.demo.MoviePractice.controller;
 
-import com.example.demo.movie.model.MovieDto;
-import com.example.demo.movie.service.MovieService;
+import com.example.demo.MoviePractice.model.MovieDto;
+import com.example.demo.MoviePractice.service.MovieService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

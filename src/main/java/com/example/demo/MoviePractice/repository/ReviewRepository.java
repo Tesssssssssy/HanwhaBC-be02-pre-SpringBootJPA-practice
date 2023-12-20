@@ -1,6 +1,6 @@
-package com.example.demo.movie.repository;
+package com.example.demo.MoviePractice.repository;
 
-import com.example.demo.movie.model.Review;
+import com.example.demo.MoviePractice.model.Review;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

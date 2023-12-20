@@ -1,9 +1,12 @@
-package com.example.demo.movie.repository;
+package com.example.demo.MoviePractice.repository;
 
-import com.example.demo.movie.model.Movie;
+import com.example.demo.MoviePractice.model.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.Optional;
+
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Integer> {
+    public Optional<Movie> findByName(String name);
 }
